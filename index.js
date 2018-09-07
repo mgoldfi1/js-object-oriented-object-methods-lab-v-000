@@ -1,6 +1,6 @@
 function BoardMember (nam, homeState, training){
   this.homeState = homeState;
-  this.nam = name;
+  this.nam = nam;
   this.training = training;
   this.veto = function() {return "No, I must disagree"};
   this.approve = function(){return "You can do that!"};
@@ -8,4 +8,3 @@ function BoardMember (nam, homeState, training){
   this.releasePressStatement = function(){return "You will see great things from Scuber."};
   this.sayHi = function(){return `Hi, my name is ${this.nam}. I am from ${this.homeState}, and I was trained in ${this.training}`};
 }
-
